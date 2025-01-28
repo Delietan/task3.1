@@ -6,9 +6,9 @@ router.get('/', function(req, res, next) {
   res.send(`
     <h2>Choose an option:</h2>
     <ul>
-    <li><a href="http://localhost:3000/message">Welcome</a></li>
-    <li><a href="http://localhost:3000/about">About</a></li>
-    <li><a href="http://localhost:3000/random-number">Random Number</a></li>
+      <li><a href="/message">Welcome</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/random-number">Random Number</a></li>
     </ul>
   `);
 });
